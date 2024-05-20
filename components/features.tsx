@@ -1,98 +1,152 @@
-export default function Features() {
+import React from 'react';
+import epi from '@/public/images/2.jpg'
+import aca from '@/public/images/3.jpg'
+import dido from '@/public/images/4.jpg'
+import malik from '@/public/images/5.jpg'
+import jo from '@/public/images/6.jpg'
+import reja from '@/public/images/7.jpg'
+import ujan from '@/public/images/8.jpg'
+import cceu from '@/public/images/9.jpg'
+import fadli from '@/public/images/10.jpg'
+import rara from '@/public/images/11.jpg'
+import cepi from '@/public/images/12.jpg'
+
+
+import Image from 'next/image';
+
+// Data JSON yang telah dibuat sebelumnya
+const members = [
+  {
+    name: "SELVYANA LIE",
+    nick: "xMademoiselle",
+    zodiac: "Scorpio",
+    location: "Jakarta",
+    description: "OWNER, LEADER, KETUA, RI 1 ☀️\nnyawa lu ada 9 kalo berani ngelawan dia",
+    image: epi
+  },
+  {
+    name: "Reza Pahlevi",
+    nick: "reenan",
+    zodiac: "Aries",
+    location: "Bogor",
+    description: "STAFF CB, IDOL KITA SEMUWAH 🐊\nlu orang kalo mau cb, WAJIB lapor ke dia. jgn maen cb sembarangan ae loe.",
+    image: reja
+  },
+  {
+    name: "Annasthasya Puteri",
+    nick: "imScarlett , imLudovs-",
+    zodiac: "Libra",
+    location: "Jakarta",
+    description: "STAFF EVENT ONLINE ATAU OFFLINE 🐍 tukang ngide. kalo ada event atau kumpul2 dadakan pokonya kerjaan dia dah.",
+    image: aca
+  },
+  {
+    name: "Nadhila Amanda Putri",
+    nick: "imTYREX",
+    zodiac: "Leo",
+    location: "Depok",
+    description: "BENDAHARA 🦖 kalo ada gath, event, atau nabung2 carinya dia ya. mana tau nanti kita next gath nya umroh ramean.",
+    image: dido
+  },
+  {
+    name: "Jarot",
+    nick: "jarotharsa",
+    zodiac: "Cancer",
+    location: "Batam",
+    description: "PENASEHAT UMUM 🐻 harus pada dengerin ye kalo dia ngang ngong ngang ngong fa fi fu was wes wos.",
+    image: jo
+  },
+  {
+    name: "Fathya L Azzahra",
+    nick: "imeiska",
+    zodiac: "Libra",
+    location: "Bogor",
+    description: "SEKRETARIS JENDRAL 🌸 kalo ada discuss atau lagi briefing sesuatu, dia nih yg suka nyatet. tapi nyambi jadi tatib juga, bae2 dah lu ye.",
+    image: cceu
+  },
+  {
+    name: "Fauzan Suganda",
+    nick: "rainyboi",
+    zodiac: "Aquarius",
+    location: "Bogor",
+    description: "TESTER, IDOL KITA SEMUWAH 🌧️lu orang kalo mau open test, carinya ujan aja y",
+    image: ujan
+  },
+  {
+    name: "Malik",
+    nick: "imalik",
+    zodiac: "Aries",
+    location: "Jakarta",
+    description: ".....",
+    image: malik
+  },
+  {
+    name: "rara",
+    nick: "jiniret",
+    zodiac: "gatau",
+    location: "depok",
+    description: ".....",
+    image: rara
+  },
+  {
+    name: "Chevi Frans",
+    nick: "irlChv347",
+    zodiac: "Aquarius",
+    location: "Bandung",
+    description: "STAFF EVENT IN GAME ATAU PUBLIC 🐼orang paling penting kalo event.",
+    image: cepi
+  },
+
+];
+
+const Features: React.FC = () => {
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
-
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">The majority our customers do not understand their workflows.</h2>
-            <p className="text-xl text-gray-400">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h2 className="h2 mb-4">SCARLETT RANGERS</h2>
+            <p className="text-xl text-gray-400">pelaku utama scarlett house</p>
           </div>
 
           {/* Items */}
-          <div className="max-w-sm mx-auto grid gap-8 md:grid-cols-2 lg:grid-cols-3 lg:gap-16 items-start md:max-w-2xl lg:max-w-none" data-aos-id-blocks>
-
-            {/* 1st item */}
-            <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-anchor="[data-aos-id-blocks]">
-              <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-                <rect className="fill-current text-purple-600" width="64" height="64" rx="32" />
-                <path className="stroke-current text-purple-100" d="M30 39.313l-4.18 2.197L27 34.628l-5-4.874 6.91-1.004L32 22.49l3.09 6.26L42 29.754l-3 2.924" strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd" />
-                <path className="stroke-current text-purple-300" d="M43 42h-9M43 37h-9" strokeLinecap="square" strokeWidth="2" />
-              </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
-            </div>
-
-            {/* 2nd item */}
-            <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="100" data-aos-anchor="[data-aos-id-blocks]">
-              <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-                <circle className="fill-current text-purple-600" cx="32" cy="32" r="32" />
-                <path className="stroke-current text-purple-100" strokeWidth="2" strokeLinecap="square" d="M21 23h22v18H21z" fill="none" fillRule="evenodd" />
-                <path className="stroke-current text-purple-300" d="M26 28h12M26 32h12M26 36h5" strokeWidth="2" strokeLinecap="square" />
-              </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
-            </div>
-
-            {/* 3rd item */}
-            <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="200" data-aos-anchor="[data-aos-id-blocks]">
-              <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-                <rect className="fill-current text-purple-600" width="64" height="64" rx="32" />
-                <g transform="translate(21 21)" strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd">
-                  <ellipse className="stroke-current text-purple-300" cx="11" cy="11" rx="5.5" ry="11" />
-                  <path className="stroke-current text-purple-100" d="M11 0v22M0 11h22" />
-                  <circle className="stroke-current text-purple-100" cx="11" cy="11" r="11" />
-                </g>
-              </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
-            </div>
-
-            {/* 4th item */}
-            <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="300" data-aos-anchor="[data-aos-id-blocks]">
-              <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-                <rect className="fill-current text-purple-600" width="64" height="64" rx="32" />
-                <g transform="translate(22 21)" strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd">
-                  <path className="stroke-current text-purple-100" d="M17 22v-6.3a8.97 8.97 0 003-6.569A9.1 9.1 0 0011.262 0 9 9 0 002 9v1l-2 5 2 1v4a2 2 0 002 2h4a5 5 0 005-5v-5" />
-                  <circle className="stroke-current text-purple-300" cx="13" cy="9" r="3" />
-                </g>
-              </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
-            </div>
-
-            {/* 5th item */}
-            <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="400" data-aos-anchor="[data-aos-id-blocks]">
-              <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-                <rect className="fill-current text-purple-600" width="64" height="64" rx="32" />
-                <g strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd">
-                  <path className="stroke-current text-purple-100" d="M29 42h10.229a2 2 0 001.912-1.412l2.769-9A2 2 0 0042 29h-7v-4c0-2.373-1.251-3.494-2.764-3.86a1.006 1.006 0 00-1.236.979V26l-5 6" />
-                  <path className="stroke-current text-purple-300" d="M22 30h4v12h-4z" />
-                </g>
-              </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
-            </div>
-
-            {/* 6th item */}
-            <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="500" data-aos-anchor="[data-aos-id-blocks]">
-              <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-                <rect className="fill-current text-purple-600" width="64" height="64" rx="32" />
-                <g transform="translate(21 22)" strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd">
-                  <path className="stroke-current text-purple-300" d="M17 2V0M19.121 2.879l1.415-1.415M20 5h2M19.121 7.121l1.415 1.415M17 8v2M14.879 7.121l-1.415 1.415M14 5h-2M14.879 2.879l-1.415-1.415" />
-                  <circle className="stroke-current text-purple-300" cx="17" cy="5" r="3" />
-                  <path className="stroke-current text-purple-100" d="M8.86 1.18C3.8 1.988 0 5.6 0 10c0 5 4.9 9 11 9a10.55 10.55 0 003.1-.4L20 21l-.6-5.2a9.125 9.125 0 001.991-2.948" />
-                </g>
-              </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
-            </div>
-
+          <div className="max-w-sm mx-auto grid gap-8 md:grid-cols-2 lg:grid-cols-3 lg:gap-10 items-start md:max-w-2xl lg:max-w-none" data-aos-id-blocks>
+            {/* Konten di sini */}
+            {members.map((member, index) => (
+              <div key={index} className="col-lg-3 col-md-6 d-flex align-items-stretch" style={{ border: '1px solid whites' }}>
+                <div className="member" data-aos="fade-up" data-aos-delay="200">
+                  <div className="member-img">
+                    <div className="w-100 h-100 bg-cover bg-center rounded-full" style={{ backgroundImage: `url("${member.image}")` }}></div>
+                    <div className="social">
+                      {/* Gunakan Image dari Next.js */}
+                      <Image src={member.image} alt="Foto" className="w-full h-auto" style={{ objectFit: 'cover' }} />
+                    </div>
+                  </div>
+                  <div className="member-info">
+                    <h4>{member.name}</h4>
+                    <div>
+                      <span>Nick: {member.nick}</span>
+                    </div>
+                    <div>
+                      <span>Zodiak: {member.zodiac}</span>
+                    </div>
+                    <div>
+                      <span>Domisili: {member.location}</span>
+                    </div>
+                    <div>
+                      <span>{member.description}</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ))}
           </div>
-
         </div>
       </div>
     </section>
-  )
+  );
 }
+
+export default Features;
+

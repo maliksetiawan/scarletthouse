@@ -13,7 +13,8 @@ export default function SignIn() {
 
           {/* Page header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h1 className="h1">Welcome back. We exist to make entrepreneurship easier.</h1>
+            <h1 className="h1">Welcome back, silahkan login.</h1>
+            <h1 className="h1">Jika lupa id dan password hubungi staff </h1>
           </div>
 
           {/* Form */}
@@ -67,7 +68,8 @@ export default function SignIn() {
               </div>
             </form>
             <div className="text-gray-400 text-center mt-6">
-              Don’t you have an account? <Link href="/signup" className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out">Sign up</Link>
+              Don’t you have an account? Hubungi Staff
+              {/* <Link href="/signup" className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out">Sign up</Link> */}
             </div>
           </div>
 

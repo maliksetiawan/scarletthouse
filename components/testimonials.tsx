@@ -1,8 +1,8 @@
 import Image from 'next/image'
 
-import TestimonialImage01 from '@/public/images/testimonial-01.jpg'
-import TestimonialImage02 from '@/public/images/testimonial-02.jpg'
-import TestimonialImage03 from '@/public/images/testimonial-03.jpg'
+import TestimonialImage01 from '@/public/images/2.jpg'
+import TestimonialImage02 from '@/public/images/3.jpg'
+import TestimonialImage03 from '@/public/images/4.jpg'
 
 export default function Testimonials() {
   return (
@@ -12,9 +12,10 @@ export default function Testimonials() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">Don't take our word for it</h2>
-            <p className="text-xl text-gray-400">Vitae aliquet nec ullamcorper sit amet risus nullam eget felis semper quis lectus nulla at volutpat diam ut venenatis tellus—in ornare.</p>
+            <h2 className="h2 mb-4 text-3xl">Pesan Pesan Untuk Kita Scarlett House</h2>
+            <p className="text-xl text-gray-400 text-lg">Vitae aliquet nec ullamcorper sit amet risus nullam eget felis semper quis lectus nulla at volutpat diam ut venenatis tellus—in ornare.</p>
           </div>
+
 
           {/* Testimonials */}
           <div className="max-w-sm mx-auto grid gap-8 lg:grid-cols-3 lg:gap-6 items-start lg:max-w-none">
@@ -29,9 +30,9 @@ export default function Testimonials() {
                   </svg>
                 </div>
               </div>
-              <blockquote className="text-lg text-gray-400 grow">— Open PRO lets me quickly get the insights I care about so that I can focus on my productive work. I've had Open PRO for about 24 hours now and I honestly don't know how I functioned without it before.</blockquote>
+              <blockquote className="text-lg text-gray-400 grow">— Jangan takut gagal jadikan kegagalan itu sebagai pelajaran untuk memacu kita berusaha lebih keras lagi meraih yang kita inginkan.</blockquote>
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
-                <cite className="text-gray-200 not-italic">Anastasia Dan</cite> - <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">UX Board</a>
+                <cite className="text-gray-200 not-italic">Selviana Lie</cite> - <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">SCARLETT RANGERS</a>
               </div>
             </div>
 
@@ -45,9 +46,9 @@ export default function Testimonials() {
                   </svg>
                 </div>
               </div>
-              <blockquote className="text-lg text-gray-400 grow">— Open PRO lets me quickly get the insights I care about so that I can focus on my productive work. I've had Open PRO for about 24 hours now and I honestly don't know how I functioned without it before.</blockquote>
+              <blockquote className="text-lg text-gray-400 grow">— Jangan takut gagal jadikan kegagalan itu sebagai pelajaran untuk memacu kita berusaha lebih keras lagi meraih yang kita inginkan.</blockquote>
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
-                <cite className="text-gray-200 not-italic">Anastasia Dan</cite> - <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">UX Board</a>
+                <cite className="text-gray-200 not-italic">Anastasia </cite> - <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">SCARLETT RANGERS</a>
               </div>
             </div>
 
@@ -61,9 +62,9 @@ export default function Testimonials() {
                   </svg>
                 </div>
               </div>
-              <blockquote className="text-lg text-gray-400 grow">— Open PRO lets me quickly get the insights I care about so that I can focus on my productive work. I've had Open PRO for about 24 hours now and I honestly don't know how I functioned without it before.</blockquote>
+              <blockquote className="text-lg text-gray-400 grow">— Jangan takut gagal jadikan kegagalan itu sebagai pelajaran untuk memacu kita berusaha lebih keras lagi meraih yang kita inginkan.</blockquote>
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
-                <cite className="text-gray-200 not-italic">Anastasia Dan</cite> - <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">UX Board</a>
+                <cite className="text-gray-200 not-italic">Nadhila</cite> - <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">SCARLETT RANGERS</a>
               </div>
             </div>
 
