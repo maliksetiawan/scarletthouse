@@ -1,5 +1,6 @@
 import VideoThumb from '@/public/images/staff.jpg'
 import ModalVideo from '@/components/modal-video'
+import Link from 'next/link'
 
 export default function Hero() {
   return (
@@ -27,24 +28,46 @@ export default function Hero() {
             <h1 className="h1 mb-4" data-aos="fade-up">Scarlett House</h1>
             <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">Tempatnya para badut badut</p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
+
               <div data-aos="fade-up" data-aos-delay="400">
-                <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Tentang Anggota Kita</a>
+                <Link
+                  href="/tentangkita"
+                  className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0 rounded-lg">
+                  TENTANG KESERUAN KITA
+                </Link>
               </div>
-              <div data-aos="fade-up" data-aos-delay="600">
+              {/* <div data-aos="fade-up" data-aos-delay="600">
                 <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">Apasi Scarlett House itu?</a>
+              </div> */}
+              <div data-aos="fade-up" data-aos-delay="400">
+                <Link
+                  href="/isiscarlett"
+                  className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:ml-4 sm:w-auto sm:mb-0 rounded-lg">
+                  TENTANG MAKHLUK SCARLETT
+                </Link>
               </div>
             </div>
           </div>
+          <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center ">
 
-          <ModalVideo
-            thumb={VideoThumb}
-            thumbWidth={550}
-            thumbHeight={100}
-            thumbAlt="Modal video thumbnail"
-            video="/videos/video4.mp4"
-            videoWidth={1920}
-            videoHeight={800} />
 
+            <ModalVideo
+              thumb={VideoThumb}
+              thumbWidth={550}
+              thumbHeight={100}
+              thumbAlt="Modal video thumbnail"
+              video="/videos/video4.mp4"
+              videoWidth={1920}
+              videoHeight={800} />
+            {/* <ModalVideo
+              thumb={VideoThumb}
+              thumbWidth={550}
+              thumbHeight={100}
+              thumbAlt="Modal video thumbnail"
+              video="/videos/video4.mp4"
+              videoWidth={1920}
+              videoHeight={800} /> */}
+          </div>
         </div>
 
       </div>

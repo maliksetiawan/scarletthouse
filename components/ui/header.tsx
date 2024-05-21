@@ -27,13 +27,12 @@ export default function Header() {
               <li>
                 <Link
                   href="/signin"
-                  // className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out" >
-                  className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3">
-
+                  className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3 rounded-full">
                   Sign in
                 </Link>
               </li>
-              <li>
+
+              {/* <li>
                 <Link href="/signin"
                   // className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3">
                   className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out">
@@ -46,7 +45,7 @@ export default function Header() {
                   className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out">
                   Moment  Tiba Tiba Event Kita
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </nav>
 

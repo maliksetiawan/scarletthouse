@@ -1,0 +1,19 @@
+/* Dalam file CSS Anda */
+.carousel-container {
+    @apply relative mx-auto;
+    max-width: 80%; /* Atur lebar maksimum carousel di sini */
+  }
+  
+  .carousel {
+    @apply relative overflow-hidden w-full;
+  }
+  
+  .carousel-item {
+    @apply float-left;
+  }
+  
+  .carousel-image {
+    @apply w-full; /* Foto akan mengikuti lebar carousel */
+    height: auto; /* Foto akan disesuaikan tingginya sesuai dengan aspek rasio */
+  }
+  
