@@ -42,7 +42,7 @@ export default function Hero() {
               <div data-aos="fade-up" data-aos-delay="400">
                 <Link
                   href="/isiscarlett"
-                  className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:ml-4 sm:w-auto sm:mb-0 rounded-lg">
+                  className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4 rounded-lg">
                   TENTANG MAKHLUK SCARLETT
                 </Link>
               </div>
