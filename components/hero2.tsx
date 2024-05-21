@@ -300,12 +300,12 @@ export default function Hero2() {
     // },
 
   ];
-  const handleImageClick = (index: number) => {
-    if (index >= 0 && index < members.length) { // Memastikan index valid
-      setClickedImageIndex(index);
-      openModal();
-    }
-  };
+  // const handleImageClick = (index: number) => {
+  //   if (index >= 0 && index < members.length) { // Memastikan index valid
+  //     setClickedImageIndex(index);
+  //     openModal();
+  //   }
+  // };
 
 
   return (
