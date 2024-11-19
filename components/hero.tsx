@@ -29,21 +29,35 @@ export default function Hero() {
             <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">Tempatnya para badut badut</p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
 
-              <div data-aos="fade-up" data-aos-delay="400">
+              {/* <div data-aos="fade-up" data-aos-delay="400">
                 <Link
                   href="/tentangkita"
                   className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0 rounded-lg">
                   TENTANG KESERUAN KITA
                 </Link>
-              </div>
+              </div> */}
               {/* <div data-aos="fade-up" data-aos-delay="600">
                 <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">Apasi Scarlett House itu?</a>
               </div> */}
               <div data-aos="fade-up" data-aos-delay="400">
                 <Link
-                  href="/isiscarlett"
+                  href="/staffscarlett"
+                  className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0 rounded-lg">
+                  Staff Scarlett
+                </Link>
+              </div>
+              <div data-aos="fade-up" data-aos-delay="400">
+                <Link
+                  href="/lakiscarlett"
                   className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4 rounded-lg">
-                  TENTANG MAKHLUK SCARLETT
+                  Lakinya Scarlett
+                </Link>
+              </div>
+              <div data-aos="fade-up" data-aos-delay="400">
+                <Link
+                  href="/cewescarlett"
+                  className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4 rounded-lg">
+                  Perempuannya Scarlett
                 </Link>
               </div>
             </div>

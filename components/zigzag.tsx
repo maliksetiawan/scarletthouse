@@ -6,6 +6,10 @@ import FeatImage02 from '@/public/images/tentangkita/gath1.jpeg'
 import FeatImage03 from '@/public/images/tentangkita/event2.jpeg'
 import FeatImage04 from '@/public/images/tentangkita/event1.jpeg'
 import FeatImage05 from '@/public/images/tentangkita/bultang.jpeg'
+import FeatImage06 from '@/public/images/tentangkita/futsal.jpg'
+import FeatImage07 from '@/public/images/tentangkita/bultangim.jpg'
+import FeatImage08 from '@/public/images/tentangkita/aquagames.jpeg'
+import FeatImage09 from '@/public/images/tentangkita/gath1st.jpeg'
 
 
 export default function Zigzag() {
@@ -201,6 +205,111 @@ export default function Zigzag() {
                       </svg>
                       <span>alhamdulillah lancar</span>
                     </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
+              {/* Image */}
+              <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 rtl" data-aos="fade-up">
+                <Image className="max-w-full mx-auto md:max-w-none h-auto" src={FeatImage06} width={540} height={405} alt="Features 02" />
+              </div>
+              {/* Content */}
+              <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-left">
+                <div className="md:pl-4 lg:pl-12 xl:pl-16">
+                  <div className="font-architects-daughter text-xl text-purple-600 mb-2">Jakarta, 31 Agustus 2024</div>
+                  <h3 className="h3 mb-3">Futsal x 23 </h3>
+                  <p className="text-xl text-gray-400 mb-4">Fustal bareng anak anak 23</p>
+                  <ul className="text-lg text-gray-400 -mb-2">
+                    <li className="flex items-center mb-2">
+                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                      </svg>
+                      <span>Nendang ngasal</span>
+                    </li>
+                    <li className="flex items-center mb-2">
+                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                      </svg>
+                      <span>yang penting nendang</span>
+                    </li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
+              {/* Image */}
+              <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up">
+                <Image className="max-w-full mx-auto md:max-w-none h-auto" src={FeatImage08} width={540} height={405} alt="Features 01" />
+              </div>
+              {/* Content */}
+              <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
+                <div className="md:pr-4 lg:pr-12 xl:pr-16">
+                  <div className="font-architects-daughter text-xl text-purple-600 mb-2">Bogor, 27 Oktober 2024</div>
+                  <h3 className="h3 mb-3">Aqua Games </h3>
+                  <p className="text-xl text-gray-400 mb-4">Main Air dah pokoknya</p>
+                  <ul className="text-lg text-gray-400 -mb-2">
+                    <li className="flex items-center mb-2">
+                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                      </svg>
+                      <span>Cape</span>
+                    </li>
+                    <li className="flex items-center mb-2">
+                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                      </svg>
+                      <span>Cape pokoknya</span>
+                    </li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
+              {/* Image */}
+              <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 rtl" data-aos="fade-up">
+                <Image className="max-w-full mx-auto md:max-w-none h-auto" src={FeatImage09} width={540} height={405} alt="Features 02" />
+              </div>
+              {/* Content */}
+              <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-left">
+                <div className="md:pl-4 lg:pl-12 xl:pl-16">
+                  <div className="font-architects-daughter text-xl text-purple-600 mb-2">Jakarta, 03 Agustus 2024</div>
+                  <h3 className="h3 mb-3">GATH ANNIVERSARRYNYA SCARLETT HOUSE</h3>
+                  <p className="text-xl text-gray-400 mb-4">GATHERING</p>
+                  <ul className="text-lg text-gray-400 -mb-2">
+                    <li className="flex items-center mb-2">
+                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                      </svg>
+                      <span>1 tahun pokoknya</span>
+                    </li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
+              {/* Image */}
+              <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up">
+                <Image className="max-w-full mx-auto md:max-w-none h-auto" src={FeatImage07} width={540} height={405} alt="Features 01" />
+              </div>
+              {/* Content */}
+              <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
+                <div className="md:pr-4 lg:pr-12 xl:pr-16">
+                  <div className="font-architects-daughter text-xl text-purple-600 mb-2">Jakarta, 3 Oktober 2024</div>
+                  <h3 className="h3 mb-3">Tepok bulu vol.2 x NSNV </h3>
+                  <p className="text-xl text-gray-400 mb-4">Bultang</p>
+                  <ul className="text-lg text-gray-400 -mb-2">
+                    <li className="flex items-center mb-2">
+                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                      </svg>
+                      <span>Tepok angin pokoknya</span>
+                    </li>
+                    
+                    
                   </ul>
                 </div>
               </div>

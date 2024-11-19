@@ -96,6 +96,14 @@ const members = [
     description: "STAFF EVENT IN GAME ATAU PUBLIC 🐼orang paling penting kalo event.",
     image: cepi
   },
+  {
+    name: "Fadli Hermansyah",
+    nick: "myBlackpearl",
+    zodiac: "-",
+    location: "Bandung",
+    description: "Abang CB",
+    image: fadli
+  },
 
 ];
 
