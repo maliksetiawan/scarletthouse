@@ -24,9 +24,10 @@ import wilbert from '@/public/images/27.jpg'
 import fatur2 from '@/public/images/28.jpg'
 import kris from '@/public/images/30.jpg'
 import fabow from '@/public/images/29.jpg'
-import adhi from '@/public/images/34.jpg'
-import mario from '@/public/images/33.jpg'
-import irawan from '@/public/images/32.jpg'
+import mario from '@/public/images/32.jpg'
+import adhi from '@/public/images/33.jpg'
+import irawan from '@/public/images/31.jpg'
+import bopak from '@/public/images/34.jpg'
 
 const members = [
   {
@@ -186,6 +187,14 @@ const members = [
     location: "Bekasi - Semarang",
     
     image: adhi
+  },
+  {
+    name: "Mohammad Riduwan",
+    nick: "-",
+    zodiac: "-",
+    location: "Jakarta",
+    
+    image: bopak
   },
 ];
 
