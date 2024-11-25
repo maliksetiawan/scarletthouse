@@ -36,7 +36,7 @@ export default function Footer() {
                     <Link href="/lakiscarlett" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">SCARLETT BOYS</Link>
                   </li>
                   <li className="mb-1">
-                    <Link href="/cewescarlett" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">SCARLETT GIRLS</Link>
+                    <Link href="/cewescarlett " className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">SCARLETT GIRLS</Link>
                   </li>
                 </ul>
               </div>
